@@ -47,7 +47,7 @@ mongoimport -d insurence -c insurence --type csv --file recordsinsurence.csv --h
 - MongoDB population time
 ![alt text](https://github.com/DunkRing/Mini-Project-2-NoSQL-Databases/blob/master/img/MongoDB%20populate%20time.JPG "Logo Title Text 1")
 - Neo4j population time 
-[alt text](https://github.com/DunkRing/Mini-Project-2-NoSQL-Databases/blob/master/img/Neo4j%20UploadTime.JPG "Logo Title Text 1")
+![alt text](https://github.com/DunkRing/Mini-Project-2-NoSQL-Databases/blob/master/img/Neo4j%20UploadTime.JPG "Logo Title Text 1")
 2. How much space does the to database
 - to andre bilelde (det ene før og efter = mongo) og neo4j står det i bunden af billedet.
 
