@@ -100,3 +100,6 @@ Experience with a command prompt needed, no GUI to visualize data.
 Based on our experiments with Neo4j and MongoDB can we conclude that if you have a very large data collection you will have to have alot space available since Neo4j takes up approximately 83 times as much space.
 But on the other hand its more intuitive to use Neo4j since you get alot of help with errors and syntax.
 personally we found it easier to import data into Neo4j contra MongoDB.
+
+ - ![List item](https://github.com/DunkRing/Mini-Project-2-NoSQL-Databases/blob/master/img/ashjdsfhasdfhds.JPG)
+ - ![List item](https://github.com/DunkRing/Mini-Project-2-NoSQL-Databases/blob/master/img/khdgjsdfa.JPG)
