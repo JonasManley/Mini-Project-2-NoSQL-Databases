@@ -1,8 +1,10 @@
 # Mini-Project-2-NoSQL-Databases
 
 
+## 1.preparing a large data source and loading it into both databases
 
-# Neo4j populations code 
+We have found a datasheet containing 36634 insurence policies.
+### Neo4j populations code 
 ```
 LOAD CSV WITH HEADERS FROM "file:///FL_insurance_sample.csv" 
 AS row MERGE (Insurance:Insurance {id:row.policyID}) 
@@ -26,7 +28,7 @@ Insurance.construction = row.construction,
 Insurance.point_granularity= toInteger(row.point_granularity),
 ```
 
-MongoDB 
+### MongoDB 
 
 1. Cd path to mongofile
 2. whrite "mongod" 
@@ -40,8 +42,7 @@ now load csv file to mongodb (only posibble from cmd)
 mongoimport -d insurence -c insurence --type csv --file recordsinsurence.csv --headerline
 3. check in the mongo terminal: "show dbs" there shoould now be a now database named "insurence"
 
-
-# relevant database operations, which can be used to compare the databases
+## 2. selecting relevant database operations, which can be used to compare the databases
 
 1.Population time
 - MongoDB population time
@@ -50,7 +51,15 @@ mongoimport -d insurence -c insurence --type csv --file recordsinsurence.csv --h
 ![alt text](https://github.com/DunkRing/Mini-Project-2-NoSQL-Databases/blob/master/img/Neo4j%20UploadTime.JPG "Logo Title Text 1")
 2. How much space does the to database
 - to andre bilelde (det ene før og efter = mongo) og neo4j står det i bunden af billedet.
+- Before = 2.12 GB (2.278.607.182 bytes)
+- After =  2.37 GB (2.547.756.160 bytes)
 
 3. selecet all elements from db
 
 Neo4J - Match(n) RETURN n limit(36634)  -- Result: completed after 798 ms
+
+## 3. selecting appropriate criteria for comparison, such as access time, storage space, complexity, versioning, security, or similar
+
+## 4. creating demo code for testing the selected database operations against the selected comparison criteria
+
+## 5. reporting the results and conclusions
