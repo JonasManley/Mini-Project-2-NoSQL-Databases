@@ -60,7 +60,44 @@ Test by running the command in MongoDB terminal
 - Neo4j population time 
 ![alt text](https://github.com/DunkRing/Mini-Project-2-NoSQL-Databases/blob/master/img/Neo4j%20UploadTime.JPG "Logo Title Text 1")
 
-**2. How much space does the two database consume**
+
+**2. Insert single elements**
+The code below show how we can insert one element of data i both database 
+
+**Neo4j**
+```
+CREATE (Insurance:Insurance)
+SET 
+Insurance.id = 172534,
+Insurance.statecode = 123456789, 
+Insurance.county = "CLAY COUNTY",
+Insurance.row.eq_site_limit = 2,
+Insurance.hu_site_limit = 254281.5,
+Insurance.fl_site_limit = 246144.49,
+Insurance.fr_site_limit = 0,
+Insurance.tiv_2011 = 0,
+Insurance.tiv_2012 = 0,
+Insurance.eq_site_deductible = 123456789,
+Insurance.hu_site_deductible = 123456789,
+Insurance.fl_site_deductible = 123456789,
+Insurance.fr_site_deductible = 123456789,
+Insurance.point_latitude = 123456789,
+Insurance.point_longitude = 123456789,
+Insurance.line = "Residential",
+Insurance.construction = "Wood",
+Insurance.point_granularity = 1
+```
+
+**MongoDB**
+```
+db.insurence.insertOne({
+ "_id" : ObjectId("5ebb020e2050d9540fc2d08c"), "policyID" : 172534, "statecode" : "FL", "county" : "CLAY COUNTY", "eq_site_limit" : 0, "hu_site_limit" : 254281.5, "fl_site_limit" : 0, "fr_site_limit" : 254281.5, "tiv_2011" : 254281.5, "tiv_2012" : 246144.49, "eq_site_deductible" : 0, "hu_site_deductible" : 0, "fl_site_deductible" : 0, "fr_site_deductible" : 0, "point_latitude" : 30.060614, "point_longitude" : -81.702675, "line" : "Residential", "construction" : "Wood", "point_granularity" : 1 
+})
+```
+
+
+
+**3. How much space does the two database consume**
 
 **Neo4j**
 - Before = 2.12 GB (2.278.607.182 bytes)
