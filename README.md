@@ -56,8 +56,10 @@ Test by running the command in MongoDB terminal
 
 **1.Population time**
 - MongoDB population time
+596ms 
 ![alt text](https://github.com/DunkRing/Mini-Project-2-NoSQL-Databases/blob/master/img/MongoDB%20populate%20time.JPG "Logo Title Text 1")
 - Neo4j population time 
+409011ms
 ![alt text](https://github.com/DunkRing/Mini-Project-2-NoSQL-Databases/blob/master/img/Neo4j%20UploadTime.JPG "Logo Title Text 1")
 
 
