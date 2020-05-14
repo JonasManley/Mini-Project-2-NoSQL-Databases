@@ -91,7 +91,11 @@ Insurance.point_granularity = 1
 **MongoDB**
 ```
 db.insurence.insertOne({
- "_id" : ObjectId("5ebb020e2050d9540fc2d08c"), "policyID" : 172534, "statecode" : "FL", "county" : "CLAY COUNTY", "eq_site_limit" : 0, "hu_site_limit" : 254281.5, "fl_site_limit" : 0, "fr_site_limit" : 254281.5, "tiv_2011" : 254281.5, "tiv_2012" : 246144.49, "eq_site_deductible" : 0, "hu_site_deductible" : 0, "fl_site_deductible" : 0, "fr_site_deductible" : 0, "point_latitude" : 30.060614, "point_longitude" : -81.702675, "line" : "Residential", "construction" : "Wood", "point_granularity" : 1 
+ "_id" : ObjectId("5ebb020e2050d9540fc2d08c"), "policyID" : 172534, "statecode" : "FL", 
+ "county" : "CLAY COUNTY", "eq_site_limit" : 0, "hu_site_limit" : 254281.5, "fl_site_limit" : 0,
+ "fr_site_limit" : 254281.5, "tiv_2011" : 254281.5, "tiv_2012" : 246144.49, "eq_site_deductible" : 0,
+ "hu_site_deductible" : 0, "fl_site_deductible" : 0, "fr_site_deductible" : 0, "point_latitude" : 30.060614, 
+ "point_longitude" : -81.702675, "line" : "Residential", "construction" : "Wood", "point_granularity" : 1 
 })
 ```
 
