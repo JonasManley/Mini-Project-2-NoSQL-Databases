@@ -144,3 +144,12 @@ personally we found it easier to import data into Neo4j contra MongoDB.
 
  - ![List item](https://github.com/DunkRing/Mini-Project-2-NoSQL-Databases/blob/master/img/ashjdsfhasdfhds.JPG)
  - ![List item](https://github.com/DunkRing/Mini-Project-2-NoSQL-Databases/blob/master/img/khdgjsdfa.JPG)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Futher work
+ Scaling? how can they work together? more in depth with pros and cons?
